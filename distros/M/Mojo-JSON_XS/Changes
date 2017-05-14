@@ -1,0 +1,19 @@
+1.003 2017-06-10
+  - Enable more tests.
+
+0.101 2015-02-02
+  - Raise Mojolicious to v5.66.
+
+0.031 2014-12-03
+  - Raise Cpanel::JSON::XS to v3.0109.
+
+0.026 2014-11-24
+  - Correct usage ordering bug in 10-json.t.
+  - Document differences from Mojo::JSON.
+  - Add Cpanel::JSON::XS notes.
+
+0.011 2014-11-02
+  - Add missing strictage.
+
+0.001 2014-11-01
+  - Initial bundling of Sebastian Riedel's code.

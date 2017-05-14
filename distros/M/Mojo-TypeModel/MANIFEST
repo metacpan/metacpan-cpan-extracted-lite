@@ -1,0 +1,11 @@
+Build.PL
+Changes
+LICENSE
+MANIFEST
+MANIFEST.SKIP
+META.json
+META.yml
+cpanfile
+lib/Mojo/TypeModel.pm
+lib/Mojolicious/Plugin/TypeModel.pm
+t/basic.t

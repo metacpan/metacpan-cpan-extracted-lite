@@ -1,0 +1,46 @@
+.perltidyrc
+.ship.conf
+.travis.yml
+Changes
+cpanfile
+lib/Mojolicious/Plugin/OpenAPI.pm
+lib/Mojolicious/Plugin/OpenAPI/Guides/Swagger2.pod
+lib/Mojolicious/Plugin/OpenAPI/Guides/Tutorial.pod
+lib/Mojolicious/Plugin/OpenAPI/Security.pm
+Makefile.PL
+MANIFEST			This list of files
+README
+t/00-basic.t
+t/authenticate.t
+t/autorender.t
+t/coerce.t
+t/collectionformat.t
+t/correct-order-of-paths.t
+t/data/image.jpeg
+t/default-value.t
+t/discriminator.t
+t/empty-string.t
+t/example-array-of-hashes.t
+t/formats.t
+t/headers.t
+t/issue-24-booleans-in-yaml-schema.t
+t/issue-48-refs.t
+t/mixin.t
+t/path-parameters.t
+t/ref-param.t
+t/register.t
+t/renderer.t
+t/reply-spec.t
+t/response-code.t
+t/route-names.t
+t/security-disabled.t
+t/security.t
+t/set-request.t
+t/spec.t
+t/swagger2.t
+t/tutorial.t
+t/validate.t
+t/x-mojo-placeholder.t
+t/yaml.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

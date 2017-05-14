@@ -1,0 +1,62 @@
+{
+   "abstract" : "Pagination plugin for Mojolicious",
+   "author" : [
+      "Jan Henning Thorsen <jhthorsen@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 7.24, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Mojolicious-Plugin-Pager",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {}
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Mojolicious" : "7.20"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "1.30"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "X_dynamic_config" : 0,
+      "X_metaspec" : {
+         "version" : 2
+      },
+      "X_resources" : {
+         "bugtracker" : {
+            "web" : "https://github.com/jhthorsen/mojolicious-plugin-pager/issues"
+         },
+         "homepage" : "https://github.com/jhthorsen/mojolicious-plugin-pager",
+         "repository" : {
+            "type" : "git",
+            "url" : "https://github.com/jhthorsen/mojolicious-plugin-pager.git",
+            "web" : "https://github.com/jhthorsen/mojolicious-plugin-pager"
+         }
+      }
+   },
+   "version" : "0.05",
+   "x_serialization_backend" : "JSON::PP version 2.27400_02"
+}

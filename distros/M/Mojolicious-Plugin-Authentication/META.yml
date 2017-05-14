@@ -1,0 +1,45 @@
+---
+abstract: 'A plugin to make authentication a bit easier'
+author:
+  - 'Ben van Staveren <madcat@cpan.org>'
+build_requires:
+  Mojolicious::Lite: '0'
+  Test::Mojo: '0'
+  Test::More: '0'
+  perl: '5.010'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+  perl: '5.010'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 6.009, CPAN::Meta::Converter version 2.150005'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Mojolicious-Plugin-Authentication
+provides:
+  Mojolicious::Plugin::Authentication:
+    file: lib/Mojolicious/Plugin/Authentication.pm
+    version: '1.32'
+requires:
+  Mojo::Base: '0'
+  perl: '5.010'
+  strict: '0'
+  warnings: '0'
+resources:
+  bugtracker: https://gitlab.com/benvanstaveren/Mojolicious-Plugin-Authentication/issues
+  repository: git://github.com/benvanstaveren/Mojolicious-Plugin-Authentication.git
+version: '1.32'
+x_contributors:
+  - 'Carlos Ramos <carragom@gmail.com>'
+  - 'David Steinbrunner <dsteinbrunner@pobox.com>'
+  - 'Doug Bell <preaction@cpan.org>'
+  - 'Edward Wildgoose <cpan@wildgooses.com>'
+  - 'Hernan Lopes <hernan@cpan.org>'
+  - 'Jose Joaquin Atria <jjatria@cpan.org>'
+  - 'Karpich Dmitry <meettya@cpan.org>'
+  - 'Kartik Thakore <kthakore@cpan.org>'
+  - 'Mirko Westermeier <mirko@westermeier.de>'
+  - 'Roman F. <romanf@cpan.org>'
+  - 'Terrence Brannon <tbone@cpan.org>'
+x_serialization_backend: 'YAML::Tiny version 1.70'

@@ -1,0 +1,38 @@
+NAME
+
+    Mojo::Log::Clearable - Mojo::Log with clearable log handle
+
+SYNOPSIS
+
+     use Mojo::Log::Clearable;
+     my $log = Mojo::Log::Clearable->new(path => $path1);
+     $log->info($message); # Logged to $path1
+     $log->path($path2);
+     $log->debug($message); # Logged to $path2
+     $log->path(undef);
+     $log->warn($message); # Logged to STDERR
+     
+     # Reopen filehandle after logrotate (if logrotate sends SIGUSR1)
+     $SIG{USR1} = sub { $log->clear_handle };
+
+DESCRIPTION
+
+    Mojo::Log::Clearable is a subclass of Mojo::Log that applies the
+    Mojo::Log::Role::Clearable role. See that role's documentation for
+    details.
+
+AUTHOR
+
+    Dan Book, dbook@cpan.org
+
+COPYRIGHT AND LICENSE
+
+    Copyright 2015, Dan Book.
+
+    This library is free software; you may redistribute it and/or modify it
+    undef the terms of the Artistic License version 2.0.
+
+SEE ALSO
+
+    Mojo::Log, Mojo::Log::Role::Clearable
+

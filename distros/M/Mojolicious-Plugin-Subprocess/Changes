@@ -1,0 +1,14 @@
+1.000     2017-12-17 17:33:49 EST
+  - INCOMPATIBLE CHANGE: The use_sereal option now requires Mojo::IOLoop::Subprocess::Role::Sereal.
+
+0.004     2017-06-14 16:29:16 EDT
+  - Fix syntax oddity occasionally causing use_sereal serialization to fail
+
+0.003     2017-06-08 02:27:13 EDT
+  - Include Sereal::Encoder and Sereal::Decoder versions in tests for debugging purposes
+
+0.002     2017-06-04 16:55:27 EDT
+  - Add use_sereal option to simplify using Sereal for data serialization
+
+0.001     2016-12-28 22:11:44 EST
+  - First release

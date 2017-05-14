@@ -1,0 +1,58 @@
+{
+   "abstract" : "Browses online documentation of your Mojolicious application",
+   "author" : [
+      "Viliam Pucik <viliam.pucik@gmail.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 7.24, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Mojolicious-Plugin-DOCRenderer",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc",
+         "t"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Mojolicious" : "7.43",
+            "perl" : "5.010001"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/viliampucik/Mojolicious-Plugin-DocRenderer/issues"
+      },
+      "homepage" : "https://github.com/viliampucik/Mojolicious-Plugin-DocRenderer",
+      "license" : [
+         "http://www.opensource.org/licenses/artistic-license-2.0"
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/viliampucik/Mojolicious-Plugin-DocRenderer.git",
+         "web" : "https://github.com/viliampucik/Mojolicious-Plugin-DocRenderer"
+      }
+   },
+   "version" : "5.01",
+   "x_serialization_backend" : "JSON::PP version 2.27400_02"
+}

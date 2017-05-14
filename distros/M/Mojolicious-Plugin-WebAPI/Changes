@@ -1,0 +1,31 @@
+Release history of Mojolicious::Plugin::WebAPI
+==============================================
+
+0.04 2018-03-25 10:39:00
+
+  [BUGFIXES]
+  * We need to inherit from Mojolicious, not from Mojo in the ::Proxy class
+  * The JSON that is returned by WebAPI::DBIC changed, fixed that in the test
+
+  [IMPROVEMENTS]
+  * add tests for the ::Proxy class
+  * you can pass debug => 1 in the plugin('WebAPI') configuration to get some WebAPI::DBIC messages
+
+0.03 2015-07-24
+
+  [BUGFIXES]
+  * Newer versions of WebAPI::DBIC require the parameter 'routes', not 'schema'
+
+  [IMPROVEMENTS]
+  * When the mojolicious app runs behind a reverse proxy, the base path was wrong
+
+0.02 2015-02-22
+
+  [IMPROVEMENTS]
+  * fix env variables as Plack::Request uses CONTENT_LENGTH
+  * add test for write operation
+
+0.01 2015-02-21
+
+  [MISC]
+  * initial release

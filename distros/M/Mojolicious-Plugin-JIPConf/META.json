@@ -1,0 +1,62 @@
+{
+   "abstract" : "Plugin for JIP::Conf.",
+   "author" : [
+      "Vladimir Zhavoronkov <flyweight@yandex.ru>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 7.0401, CPAN::Meta::Converter version 2.150001",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Mojolicious-Plugin-JIPConf",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {}
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "JIP::Conf" : "0.02",
+            "Mojo::Base" : "0",
+            "Mojolicious" : "0",
+            "Mojolicious::Plugin" : "0",
+            "perl" : "5.006"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "English" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/outtaspace/mojolicious_plugin_jipconf/issues"
+      },
+      "license" : [
+         "http://www.opensource.org/licenses/artistic-license-2.0"
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/outtaspace/mojolicious_plugin_jipconf.git",
+         "web" : "https://github.com/outtaspace/mojolicious_plugin_jipconf"
+      }
+   },
+   "version" : "0.021"
+}

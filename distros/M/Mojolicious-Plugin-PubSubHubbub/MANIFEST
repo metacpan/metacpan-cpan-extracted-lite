@@ -1,0 +1,11 @@
+lib/Mojolicious/Plugin/PubSubHubbub.pm
+t/PubSubHubbub.t
+t/PubSubHubbub-Discovery.t
+t/PubSubHubbub-Config.t
+examples/pubsubapp
+Changes
+MANIFEST
+LICENSE
+Makefile.PL
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
